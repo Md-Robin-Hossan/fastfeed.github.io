@@ -1,0 +1,178 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+form {
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #3498db;
+}
+#hide1{
+	display: none;
+}
+.eye_span{
+	position: absolute;
+    transform: translate(0, -50%);
+    top: 46.5%;
+    right: 97px;
+	cursor: pointer;
+}
+
+.eye_span i{
+	font-size: 13px;
+	color: #000;
+}
+
+.signup{
+
+	border: 1px solid #E4E6E9;
+    padding: 0.4rem 7.2rem;
+    border-radius: 2rem;
+	background: #fff;
+	color: #000;
+}
+.signup:hover{
+	background-color: #eee;
+
+}
+.wrapper {
+	background-image: url("../images/backgrounds/");
+	background-color: #F0F2F5;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-width: 950px;
+
+}
+.Information {
+	position: relative;
+	top: 50%;
+	left: 27%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	padding: 1rem;
+	font-size: 30px;
+	word-wrap: break-word;
+	color: darkcyan;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login_box {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 35%;
+	background-color: #fff;
+	border: 1px solid #EDEDED;
+	border-radius: 7px;
+	padding: 5px;
+	opacity: 0.98;
+	float: right;
+	min-height: 29rem;
+	right: 12rem;
+	top: -6rem;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.login_header {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	width: 100%;
+	height: 90px;
+	color: #000;
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.login_header h1 {
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 0;
+	color: #2C6C96;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	font-size: 250%;
+}
+
+input[type="submit"] {
+	border: 1px solid #E4E6E9;
+	margin: 5px 0 10px 0;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	padding: .4rem .8rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: #000;
+	text-align: center;
+	background: #fff;
+	width: 70%;
+}
+input[type="submit"]:hover{
+background-color: #eee;
+}
+input[type="submit"]:active{
+background-color: #E4E6E9;
+}
+
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	outline: none;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #3498db;	
+}
+
+select[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	outline: none;
+}
+
+select[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #3498db;	
+}
+
+#second {
+	display: none;
+}
+
+
+
+
